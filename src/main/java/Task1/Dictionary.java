@@ -18,7 +18,18 @@ public class Dictionary implements DictionaryGenerator {
         words = _words;
     }
 
-    public Dictionary(){}
+    public Dictionary(){
+        id = idIter;
+        idIter++;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public List<Word> getWords() {
+        return words;
+    }
 
     public Dictionary generate() {
         char[] symbol = "abcdefghijklmnopqrstuvwxyz0123456789".toCharArray();
