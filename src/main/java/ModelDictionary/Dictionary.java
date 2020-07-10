@@ -9,12 +9,12 @@ public class Dictionary {
     private List<Word> words;
     private static Long idIter = (long)0;
 
-    public Dictionary(User _user, LanguageType language, List<Word> _words){
+    public Dictionary(User user, LanguageType languageType, List<Word> words){
         id = idIter;
         idIter++;
-        user = _user;
-        languageType = language;
-        words = _words;
+        this.user = user;
+        this.languageType = languageType;
+        this.words = words;
     }
 
     public User getUser() {

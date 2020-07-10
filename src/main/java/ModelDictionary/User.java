@@ -8,13 +8,13 @@ public class User {
     private String firstName;
     static private Long idIter = (long)0;
 
-    public User(String _login, String _password, String _surname, String _firstname){
+    public User(String login, String password, String surname, String firstname){
         id = idIter;
         idIter++;
-        setPassword(_password);
-        login = _login;
-        surname = _surname;
-        firstName = _firstname;
+        this.password = password;
+        this.login = login;
+        this.surname = surname;
+        this.firstName = firstname;
     }
 
     public Long getID(){
@@ -36,4 +36,9 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
 }

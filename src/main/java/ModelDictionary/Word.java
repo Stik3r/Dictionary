@@ -7,12 +7,12 @@ public class Word {
     private String transcription;
     static long idIter = 0;
 
-    public Word(String _nativeWord, String _translation, String _transcription){
+    public Word(String nativeWord, String translation, String transcription){
         id = idIter;
         idIter++;
-        setNativeWord(_nativeWord);
-        translation = _translation;
-        transcription = _transcription;
+        this.nativeWord = nativeWord;
+        this.translation = translation;
+        this.transcription = transcription;
     }
 
     public long getId() {
@@ -33,5 +33,13 @@ public class Word {
 
     public void setNativeWord(String nativeWord) {
         this.nativeWord = nativeWord;
+    }
+
+    public void setTranslation(String translation) {
+        this.translation = translation;
+    }
+
+    public void setTranscription(String transcription) {
+        this.transcription = transcription;
     }
 }
