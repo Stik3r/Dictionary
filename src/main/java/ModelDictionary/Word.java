@@ -1,4 +1,4 @@
-package Task1;
+package ModelDictionary;
 
 public class Word {
     private long id;
@@ -10,7 +10,7 @@ public class Word {
     public Word(String _nativeWord, String _translation, String _transcription){
         id = idIter;
         idIter++;
-        setNativeWord(_transcription);
+        setNativeWord(_nativeWord);
         translation = _translation;
         transcription = _transcription;
     }

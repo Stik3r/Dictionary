@@ -1,4 +1,4 @@
-package Task1;
+package ModelDictionary;
 
 public enum LanguageType {
     ENGLISH,
