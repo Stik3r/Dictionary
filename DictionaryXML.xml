@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary>
+	<user>
+		<login>$tik3rs</login>
+		<password>TestTestTest</password>
+		<surname>Зыбко</surname>
+		<firstName>Иван</firstName>
+	</user>
+	<language>ENGLISH</language>
+	<words>
+		<word>
+			<native>some</native>
+			<translation>некоторый</translation>
+			<transcription>sʌm</transcription>
+		</word>
+		<word>
+			<native>time</native>
+			<translation>время</translation>
+			<transcription>taɪm</transcription>
+		</word>
+		<word>
+			<native>said</native>
+			<translation>говорить</translation>
+			<transcription>sed</transcription>
+		</word>
+		<word>
+			<native>air</native>
+			<translation>воздух</translation>
+			<transcription>eər</transcription>
+		</word>
+		<word>
+			<native>large</native>
+			<translation>большой</translation>
+			<transcription>lɑːdʒ</transcription>
+		</word>
+	</words>
+</Dictionary>
